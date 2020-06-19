@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+@import 'custom';
+@import '~@coreui/coreui/scss/coreui';
+@import '~bootstrap/scss/bootstrap';
+
+
+$chip-y-spacing: 15px;
+$chip-x-spacing: 5px;
+$chip-button-width: $chip-y-spacing + $chip-x-spacing * 2;
+$chip-border-radius: 15px;
+$chip-background: #f0f0f0;
+$chip-color: rgba(0, 0, 0, 0.6);
+$chip-min-height: 30px;
+
+body {
+font-family: Arial, sans-serif;
+}
+#title {
+letter-spacing: 1px;
+}
+
+.chips {
+min-height: $chip-min-height;
+border: 1px solid #ddd;
+line-height: 1;
+font-size: 1em;
+position: relative;
+text-align: justify;
+
+&.disableDiv {
+background: #f1f1f1;
+cursor: auto;
+input {
+background: transparent;
+cursor: auto;
+}
+}
+}
+
+.chips-input {
+display: inline-block;
+width: 33%;
+min-height: $chip-min-height;
+margin-bottom: $chip-x-spacing;
+margin-left: $chip-x-spacing * 2;
+border: 0;
+outline: none;
+font-size: 0.9rem;
+}
+
+.chip {
+display: inline-block;
+margin-top: $chip-x-spacing;
+margin-bottom: $chip-x-spacing;
+margin-left: $chip-x-spacing;
+margin-right: $chip-button-width;
+position: relative;
+
+.chip-value {
+display: inline-block;
+padding: $chip-x-spacing $chip-y-spacing / 2 $chip-x-spacing $chip-y-spacing;
+/*padding-left: $chip-y-spacing;
+padding-right: $chip-y-spacing / 2;*/
+background: $chip-background;
+color: $chip-color;
+font-weight: normal;
+border-radius: $chip-border-radius 0 0 $chip-border-radius;
+}
+
+.chip-delete-button {
+background: $chip-background;
+padding: 0 12px;
+color: $chip-color;
+border: 0;
+border-radius: 0 $chip-border-radius $chip-border-radius 0;
+padding: $chip-x-spacing $chip-x-spacing * 2;
+cursor: pointer;
+position: absolute;
+top: 0;
+bottom: 0;
+right: -$chip-button-width;
+line-height: 0.5;
+font-weight: bold;
+}
+}
+.auto-suggest {
+border: 1px solid #ddd;
+border-top: none;
+position: absolute;
+width: 100%;
+display: none;
+background: #fff;
+overflow: auto;
+max-height: 110px;
+z-index: 9;
+ul {
+margin: 0 !important;
+}
+li {
+background: rgba(0, 0, 0, 0.05);
+border-bottom: 1px solid #ddd;
+padding: 8px 10px;
+cursor: pointer;
+&:hover {
+background: rgba(0, 0, 0, 0.1);
+}
+}
+&.show {
+display: block;
+}
+}
+.indexcls {
+	padding-left: 26%;
+	text-align: center
+}
+* {
+	box-sizing: border-box;
+	font-family: "Overpass", sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Overpass", sans-serif;
+}

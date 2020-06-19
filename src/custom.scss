@@ -1,0 +1,179 @@
+body {
+    font: normal 13px/1.5 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #fff !important;
+    }
+    a,
+    a:hover,
+    a:focus,
+    :focus,
+    button:focus,
+    input:focus {
+    text-decoration: none !important;
+    outline: 0px !important;
+    box-shadow: none !important;
+    }
+    a {
+    color: #0277bd;
+    }
+    .R {
+    position: relative;
+    }
+    .A {
+    position: absolute;
+    }
+    .tr {
+    top: 0;
+    right: 0;
+    }
+    .wordWrap {
+    word-wrap: break-word;
+    }
+    .db {
+    display: block;
+    }
+    .z9 {
+    z-index: 9;
+    }
+    .line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+    .cl {
+    clear: both;
+    display: block;
+    }
+    .flexG {
+    flex-grow: 1;
+    }
+    .l45 {
+    line-height: 45px;
+    }
+    ul,
+    li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+    .c {
+    cursor: pointer;
+    }
+    .clear {
+    clear: both;
+    }
+    .ania {
+    will-change: all;
+    transition: all 0.3s ease-out;
+    }
+    .m0 {
+    margin: 0 !important;
+    }
+    .F {
+    position: fixed;
+    }
+    .A {
+    position: absolute;
+    }
+    .R {
+    position: relative;
+    }
+    .bl {
+    bottom: 0;
+    left: 0;
+    }
+    .tl {
+    top: 0;
+    left: 0;
+    }
+    .br {
+    bottom: 0;
+    right: 0;
+    }
+    .tr {
+    top: 0;
+    right: 0;
+    }
+    .btn {
+    padding: 4px 10px !important;
+    font-size: 12px !important;
+    }
+    .mR10 {
+    margin-right: 10px;
+    }
+    .mL20 {
+    margin-left: 20px;
+    }
+    .overlay {
+    /*background: rgba(0,0,0,0.05);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    }
+    .Fc {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    }
+    .btmBar {
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+    align-items: center;
+    z-index: 4;
+    }
+    .f24 {
+    font-size: 24px;
+    }
+    .f14 {
+    font-size: 14px !important;
+    }
+    .f12 {
+    font-size: 12px !important;
+    }
+    .f11 {
+    font-size: 11px;
+    }
+    
+    .app-body {
+    .main {
+    padding-top: 10px;
+    }
+    }
+    .menu-ico {
+    width: 40px;
+    button {
+    width: 100%;
+    }
+    }
+    .navbar-brand-logo {
+    width: 50px !important;
+    height: 40px;
+    margin: 0 !important;
+    // transform: translate(-50%);
+    img {
+    max-width: 150px !important;
+    }
+    &:hover {
+    background: none !important;
+    }
+    }
+    
+    .page-hdng {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    }
+    .main .container-fluid {
+    padding: 0px 12px 0px 14px !important;
+    }
